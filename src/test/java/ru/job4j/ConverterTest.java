@@ -17,7 +17,7 @@ public class ConverterTest {
     @Test
     public void whenConverter180RbThen3Dlr() {
         float in = 180;
-        float expected = 3;
+        float expected = 6;
         float out = Converter.rubleToDollar(in);
         double eps = 0.0001;
         Assert.assertEquals(expected, out, eps);
