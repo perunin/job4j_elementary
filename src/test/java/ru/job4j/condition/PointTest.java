@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when11to99then() {
+    public void when11to99then11dot31() {
         int x1 = 1;
         int y1 = 1;
         int x2 = 9;
@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void when22to88then() {
+    public void when22to88then8dot48() {
         int x1 = 2;
         int y1 = 2;
         int x2 = 8;
@@ -39,7 +39,7 @@ public class PointTest {
     }
 
     @Test
-    public void when37to73then() {
+    public void when37to73then5dot65() {
         int x1 = 3;
         int y1 = 3;
         int x2 = 7;
