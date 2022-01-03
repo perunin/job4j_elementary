@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SqAreaTest {
 
     @Test
-    public void square() {
+    public void whenP6K2Square2() {
         int expected = 2;
         int p = 6;
         double k = 2;
@@ -15,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void square1() {
+    public void whenP10K10Square2dot06() {
         double expected = 2.06;
         int p = 10;
         double k = 10;
@@ -24,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void square2() {
+    public void whenP99K33Square69dot94() {
         double expected = 69.94;
         int p = 99;
         double k = 33;
