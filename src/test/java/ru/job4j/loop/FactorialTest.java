@@ -18,5 +18,5 @@ import org.junit.Test;
         int result = Factorial.calc(n);
         int expected = 1;
         Assert.assertEquals(expected, result);
-    }
+     }
 }
