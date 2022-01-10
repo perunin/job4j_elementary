@@ -22,7 +22,7 @@ public class SwitchArrayTest {
         int source = 1;
         int dest = 2;
         int[] result = SwitchArray.swap(input, source, dest);
-        int[] expected = {1, 4, 3, 2};
+        int[] expected = {1, 3, 2, 4};
         Assert.assertArrayEquals(expected, result);
     }
 
